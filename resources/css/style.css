@@ -1,0 +1,123 @@
+* {
+	background-color: black;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+	min-width: 350px;
+}
+
+h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 400;
+	font-size: 3.125rem;
+	color: white;
+	padding: 0.5rem 0 1rem 0;
+}
+
+.download-container {
+	padding: 1rem 0;
+}
+
+.download-link {
+	color: aquamarine;
+	font-size: 1.2rem;
+	text-decoration: underline;
+	padding: 1rem 0;
+}
+
+.download-link:hover {
+	cursor: pointer;
+	text-shadow: 0.3px 0 white;
+}
+
+
+.button-container {
+	margin: 1rem;
+}
+
+#toggle-button {
+	background-color: aquamarine;
+	color: black;
+	font-size: 1.5rem;
+	border: none;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	border-radius: 5px;
+}
+
+#toggle-button:hover {
+	background-color: lightseagreen;
+}
+
+#hidden-content {
+	display: none;
+}
+
+.camp-image img {
+	max-width: 100%;
+	height: auto;
+}
+
+h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 300;
+	font-size: 2.625rem;
+	color: white;
+	padding: 1rem 0;
+}
+
+p {
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: gray;
+}
+
+img {
+	padding: 1.5rem 0;
+}
+
+.small-icon {
+	padding: 0;
+}
+
+.copyright {
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: gray;
+	text-align: right;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+}
+
+
+@media only screen and (max-width: 450px) {
+
+	body {
+		overflow-x: hidden;
+		padding: 0.5rem;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 1.9rem;
+	}
+
+	p,
+	.copyright {
+		font-size: 1.2rem;
+	}
+
+	.camp-image img {
+		max-width: 100%;
+		height: auto;
+	}
+
+}
